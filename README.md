@@ -20,8 +20,8 @@ Client sends a blog topic via API Gateway → Lambda invokes a Bedrock model to 
 | File | Description |
 |---|---|
 | `lambda_function.py` | Lambda function code that calls Bedrock and generates the blog |
-| `aws-blog-generation` (demo video) | End-to-end demo of the app in action |
-| Setup guide (docx) | Step-by-step screenshots of building this on AWS console |
+| `aws-blog-generation` (demo video) | End-to-end demo in action - uploaded in releases |
+| Blog-Generation-AWS-Guide.pdf | Step-by-step screenshots of building this on AWS console |
 
 ## How it works
 1. Send a `POST` request to the API Gateway endpoint with a JSON body: `{"blog_topic": "..."}`.
