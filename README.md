@@ -29,5 +29,3 @@ Client sends a blog topic via API Gateway → Lambda invokes a Bedrock model to 
 3. Generated blog text is saved to S3 as `blog-output/<timestamp>.txt`.
 4. Response returns the topic, S3 bucket, and a success message.
 
-## Notes
-Built and tested on AWS Free Tier. Resources were deleted after the project to avoid ongoing cost.
